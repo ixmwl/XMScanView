@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C9E69BCD7FEE38C4F6744BC46EEAD45 /* Pods-XMScanView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B97732DC8DB08942E67A079A254D88F /* Pods-XMScanView_Example-dummy.m */; };
+		22E8521D36563B61DDF6D56D639E6CCC /* Pods-XMScanView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF3BB82AC1D1E0D5D1049488396374CB /* Pods-XMScanView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68781F061C3365DF832E0E324288A6FC /* Pods-XMScanView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 963BC248D59F6291881D2F16E446F315 /* Pods-XMScanView_Tests-dummy.m */; };
+		6D6000B610EB06A9F2D5585CF8D06062 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2E8ED9AA691A9560193BE776545B5D /* ReplaceMe.m */; };
+		6EA910D01F7070BB40CFA29B9FB1D427 /* XMScanView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 177BF9D1F0B8B2397A7A5630F81B61EC /* XMScanView-dummy.m */; };
+		819B404BBF8FEB46320206BF5C1D4795 /* XMScanView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 516E02A3C7C1665F0862B35ECD27677A /* XMScanView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91B47F519D0B0E4CC1F5740D42E3A48A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D03A69A678140689CF456F60F0C3F0BC /* Pods-XMScanView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31A8A7691731D30A6D8B675113D397B6 /* Pods-XMScanView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D251AD99465DDDA0A6C5260D1E87D21C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E40A898F2C26ACB86AFC95222E5DEE8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28B30564F84FFBC160D425EECE403441 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAF7C92CC13F60E302CF97FCB94A9DC0;
+			remoteInfo = XMScanView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DA0A4B597301C2F8B345BA713FA8804 /* Pods-XMScanView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XMScanView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		11B0D17098125FF3A02B068BBF3EDF47 /* Pods-XMScanView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMScanView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		152C2570BB1F72092887435EDB22E3B7 /* Pods_XMScanView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMScanView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17548CA85FBC754E022BE7ECD20152A2 /* XMScanView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMScanView.xcconfig; sourceTree = "<group>"; };
+		177BF9D1F0B8B2397A7A5630F81B61EC /* XMScanView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMScanView-dummy.m"; sourceTree = "<group>"; };
+		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		31A8A7691731D30A6D8B675113D397B6 /* Pods-XMScanView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XMScanView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		382AC4E8FC1DD9A5589EC2E61D8112BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BDC797F782863F37BE1FA5180592A8F /* Pods-XMScanView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XMScanView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		43724C52400F662FBF38EA0C28CD911A /* XMScanView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = XMScanView.podspec; sourceTree = "<group>"; };
+		4B97732DC8DB08942E67A079A254D88F /* Pods-XMScanView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XMScanView_Example-dummy.m"; sourceTree = "<group>"; };
+		516E02A3C7C1665F0862B35ECD27677A /* XMScanView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMScanView-umbrella.h"; sourceTree = "<group>"; };
+		5319D169BE3916FADCC260062DE8FAA7 /* Pods-XMScanView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMScanView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		535B444D86A2D5F75E47BD063AE60274 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5575906BEEBEA9F4267BEC8FF7CE1C4B /* Pods-XMScanView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMScanView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73CF878AA49F24B1C88354DA90087CAF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		82709BE8EF1110660877E34593B55EFE /* Pods-XMScanView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XMScanView_Tests-resources.sh"; sourceTree = "<group>"; };
+		828D2A17073FE321E8F769BFC39F55F7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		963BC248D59F6291881D2F16E446F315 /* Pods-XMScanView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XMScanView_Tests-dummy.m"; sourceTree = "<group>"; };
+		9D671888B35F0FAF4E76759407878639 /* XMScanView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XMScanView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6B163C4C8E06F06B15699E8C9B2F619 /* Pods-XMScanView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMScanView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B2A84FE4656053840208A75D4724130D /* Pods-XMScanView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XMScanView_Example.modulemap"; sourceTree = "<group>"; };
+		BBC1094E03AB5A74F28D3253EE0C6AEE /* Pods-XMScanView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XMScanView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C52F10ECCDCBD8598758B42BE84D1D63 /* XMScanView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMScanView-prefix.pch"; sourceTree = "<group>"; };
+		DA3883DBA316C5C41CAA98FAC2F70ABD /* Pods_XMScanView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMScanView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE46108D1CBA831BA022401B456887D1 /* Pods-XMScanView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XMScanView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E2E7E42E259EB5BC0F91E08A74B9699C /* Pods-XMScanView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XMScanView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		EBE558CDF28D8915895E7636B1CA47F9 /* Pods-XMScanView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XMScanView_Tests.modulemap"; sourceTree = "<group>"; };
+		EE4EE8E8FFED4F3CFC9B57D20860FD7B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1E07838EA6386FA7BF72CCF2D8718C3 /* Pods-XMScanView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XMScanView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F2B0F594FF7B1A73AD4954FD452DCCD5 /* XMScanView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMScanView.modulemap; sourceTree = "<group>"; };
+		FA2E8ED9AA691A9560193BE776545B5D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = XMScanView/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		FD090668EE8336F49A2E7DD40699BF16 /* Pods-XMScanView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XMScanView_Example-resources.sh"; sourceTree = "<group>"; };
+		FF3BB82AC1D1E0D5D1049488396374CB /* Pods-XMScanView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XMScanView_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		376AF3FBF8585807AA73F4C61A5A9969 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40A898F2C26ACB86AFC95222E5DEE8A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B35AB8D14A800862CC11F21D7D2B6B87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91B47F519D0B0E4CC1F5740D42E3A48A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBB3004CA2A6579AC3E09F85384EAC21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D251AD99465DDDA0A6C5260D1E87D21C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2198B17BB98BB4DD417209FD9FCBA3DB /* Pods-XMScanView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				828D2A17073FE321E8F769BFC39F55F7 /* Info.plist */,
+				B2A84FE4656053840208A75D4724130D /* Pods-XMScanView_Example.modulemap */,
+				DE46108D1CBA831BA022401B456887D1 /* Pods-XMScanView_Example-acknowledgements.markdown */,
+				0DA0A4B597301C2F8B345BA713FA8804 /* Pods-XMScanView_Example-acknowledgements.plist */,
+				4B97732DC8DB08942E67A079A254D88F /* Pods-XMScanView_Example-dummy.m */,
+				F1E07838EA6386FA7BF72CCF2D8718C3 /* Pods-XMScanView_Example-frameworks.sh */,
+				FD090668EE8336F49A2E7DD40699BF16 /* Pods-XMScanView_Example-resources.sh */,
+				FF3BB82AC1D1E0D5D1049488396374CB /* Pods-XMScanView_Example-umbrella.h */,
+				A6B163C4C8E06F06B15699E8C9B2F619 /* Pods-XMScanView_Example.debug.xcconfig */,
+				5575906BEEBEA9F4267BEC8FF7CE1C4B /* Pods-XMScanView_Example.release.xcconfig */,
+			);
+			name = "Pods-XMScanView_Example";
+			path = "Target Support Files/Pods-XMScanView_Example";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		745053D6857389ED9F0BF6BF44833DB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				152C2570BB1F72092887435EDB22E3B7 /* Pods_XMScanView_Example.framework */,
+				DA3883DBA316C5C41CAA98FAC2F70ABD /* Pods_XMScanView_Tests.framework */,
+				9D671888B35F0FAF4E76759407878639 /* XMScanView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75DED167F62742A9ABCAF8DA44C4B454 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2198B17BB98BB4DD417209FD9FCBA3DB /* Pods-XMScanView_Example */,
+				EF2D73417B1609B74729B3C98E074F70 /* Pods-XMScanView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		897E215D73DAFEB1F8A7230B9AE60979 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE4EE8E8FFED4F3CFC9B57D20860FD7B /* Info.plist */,
+				F2B0F594FF7B1A73AD4954FD452DCCD5 /* XMScanView.modulemap */,
+				17548CA85FBC754E022BE7ECD20152A2 /* XMScanView.xcconfig */,
+				177BF9D1F0B8B2397A7A5630F81B61EC /* XMScanView-dummy.m */,
+				C52F10ECCDCBD8598758B42BE84D1D63 /* XMScanView-prefix.pch */,
+				516E02A3C7C1665F0862B35ECD27677A /* XMScanView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XMScanView";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				24390EFD555DD124430DFF9724065945 /* Podfile */,
+				F60113EC3A03E22A731CE7F092B56EC2 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				745053D6857389ED9F0BF6BF44833DB2 /* Products */,
+				75DED167F62742A9ABCAF8DA44C4B454 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3C946AE40DBB8AC0EF8E6C58C7753AB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				73CF878AA49F24B1C88354DA90087CAF /* LICENSE */,
+				535B444D86A2D5F75E47BD063AE60274 /* README.md */,
+				43724C52400F662FBF38EA0C28CD911A /* XMScanView.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		EF2D73417B1609B74729B3C98E074F70 /* Pods-XMScanView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				382AC4E8FC1DD9A5589EC2E61D8112BA /* Info.plist */,
+				EBE558CDF28D8915895E7636B1CA47F9 /* Pods-XMScanView_Tests.modulemap */,
+				BBC1094E03AB5A74F28D3253EE0C6AEE /* Pods-XMScanView_Tests-acknowledgements.markdown */,
+				3BDC797F782863F37BE1FA5180592A8F /* Pods-XMScanView_Tests-acknowledgements.plist */,
+				963BC248D59F6291881D2F16E446F315 /* Pods-XMScanView_Tests-dummy.m */,
+				E2E7E42E259EB5BC0F91E08A74B9699C /* Pods-XMScanView_Tests-frameworks.sh */,
+				82709BE8EF1110660877E34593B55EFE /* Pods-XMScanView_Tests-resources.sh */,
+				31A8A7691731D30A6D8B675113D397B6 /* Pods-XMScanView_Tests-umbrella.h */,
+				5319D169BE3916FADCC260062DE8FAA7 /* Pods-XMScanView_Tests.debug.xcconfig */,
+				11B0D17098125FF3A02B068BBF3EDF47 /* Pods-XMScanView_Tests.release.xcconfig */,
+			);
+			name = "Pods-XMScanView_Tests";
+			path = "Target Support Files/Pods-XMScanView_Tests";
+			sourceTree = "<group>";
+		};
+		F60113EC3A03E22A731CE7F092B56EC2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD613CF76D422B8356E9170334489230 /* XMScanView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FD613CF76D422B8356E9170334489230 /* XMScanView */ = {
+			isa = PBXGroup;
+			children = (
+				FA2E8ED9AA691A9560193BE776545B5D /* ReplaceMe.m */,
+				E3C946AE40DBB8AC0EF8E6C58C7753AB /* Pod */,
+				897E215D73DAFEB1F8A7230B9AE60979 /* Support Files */,
+			);
+			name = XMScanView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		12FA7C5EBDAB93E14B50A556286A14B7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				819B404BBF8FEB46320206BF5C1D4795 /* XMScanView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE76ED9443C5BDDA497BA67FC22F79B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E8521D36563B61DDF6D56D639E6CCC /* Pods-XMScanView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8B76B874B97F248586F6661F8F7C9EC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D03A69A678140689CF456F60F0C3F0BC /* Pods-XMScanView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		70E5A13D3FA5FF04C571248CCD703084 /* Pods-XMScanView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C8696BE786720C84EA0983AC4B8285 /* Build configuration list for PBXNativeTarget "Pods-XMScanView_Tests" */;
+			buildPhases = (
+				D8B76B874B97F248586F6661F8F7C9EC /* Headers */,
+				B2A60D4F11E7CE673A520940A8432013 /* Sources */,
+				376AF3FBF8585807AA73F4C61A5A9969 /* Frameworks */,
+				47D6DCD15DDF144D9D3356752667D2E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-XMScanView_Tests";
+			productName = "Pods-XMScanView_Tests";
+			productReference = DA3883DBA316C5C41CAA98FAC2F70ABD /* Pods_XMScanView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A850A563AA30C4654EF0D6F85B196E85 /* Pods-XMScanView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6914D655014178EEBCE9ADA5CFF5B24 /* Build configuration list for PBXNativeTarget "Pods-XMScanView_Example" */;
+			buildPhases = (
+				CDE76ED9443C5BDDA497BA67FC22F79B /* Headers */,
+				A42C816882CD35AE62A83A152A4AFDF3 /* Sources */,
+				B35AB8D14A800862CC11F21D7D2B6B87 /* Frameworks */,
+				88069501851F9BC0A00F3F5BB0372986 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC4B064A1BC30C6EA11E15922D5B3E95 /* PBXTargetDependency */,
+			);
+			name = "Pods-XMScanView_Example";
+			productName = "Pods-XMScanView_Example";
+			productReference = 152C2570BB1F72092887435EDB22E3B7 /* Pods_XMScanView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EAF7C92CC13F60E302CF97FCB94A9DC0 /* XMScanView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 677E0BF596234A8C2D18FD125F663F76 /* Build configuration list for PBXNativeTarget "XMScanView" */;
+			buildPhases = (
+				12FA7C5EBDAB93E14B50A556286A14B7 /* Headers */,
+				889E8A528085E1BB63DD444FF9973B65 /* Sources */,
+				EBB3004CA2A6579AC3E09F85384EAC21 /* Frameworks */,
+				04A9A6C5F46610C98A7230B869E0B4A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMScanView;
+			productName = XMScanView;
+			productReference = 9D671888B35F0FAF4E76759407878639 /* XMScanView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 745053D6857389ED9F0BF6BF44833DB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A850A563AA30C4654EF0D6F85B196E85 /* Pods-XMScanView_Example */,
+				70E5A13D3FA5FF04C571248CCD703084 /* Pods-XMScanView_Tests */,
+				EAF7C92CC13F60E302CF97FCB94A9DC0 /* XMScanView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04A9A6C5F46610C98A7230B869E0B4A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47D6DCD15DDF144D9D3356752667D2E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88069501851F9BC0A00F3F5BB0372986 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		889E8A528085E1BB63DD444FF9973B65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D6000B610EB06A9F2D5585CF8D06062 /* ReplaceMe.m in Sources */,
+				6EA910D01F7070BB40CFA29B9FB1D427 /* XMScanView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A42C816882CD35AE62A83A152A4AFDF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C9E69BCD7FEE38C4F6744BC46EEAD45 /* Pods-XMScanView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2A60D4F11E7CE673A520940A8432013 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68781F061C3365DF832E0E324288A6FC /* Pods-XMScanView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC4B064A1BC30C6EA11E15922D5B3E95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XMScanView;
+			target = EAF7C92CC13F60E302CF97FCB94A9DC0 /* XMScanView */;
+			targetProxy = 28B30564F84FFBC160D425EECE403441 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10B7097710F4591E1645F5C6A6D10F47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		276484A03FB98A820E9EA145455BB5D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5575906BEEBEA9F4267BEC8FF7CE1C4B /* Pods-XMScanView_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XMScanView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XMScanView_Example/Pods-XMScanView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_XMScanView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3BA8E52D4826AA1FE99C933D01CADF95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17548CA85FBC754E022BE7ECD20152A2 /* XMScanView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XMScanView/XMScanView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XMScanView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XMScanView/XMScanView.modulemap";
+				PRODUCT_NAME = XMScanView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3D2D6B9D215B0997E4D33F9EB23FEA86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17548CA85FBC754E022BE7ECD20152A2 /* XMScanView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XMScanView/XMScanView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XMScanView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XMScanView/XMScanView.modulemap";
+				PRODUCT_NAME = XMScanView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44F938B5562DC2342BAE510F7C411B9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		98B87485DE0C32DC2A9058CB8A0776E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6B163C4C8E06F06B15699E8C9B2F619 /* Pods-XMScanView_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XMScanView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XMScanView_Example/Pods-XMScanView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_XMScanView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EB54EB752190C99CA27ABED2A21F41E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11B0D17098125FF3A02B068BBF3EDF47 /* Pods-XMScanView_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XMScanView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XMScanView_Tests/Pods-XMScanView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_XMScanView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EC2C458FD39AF146668C109A6594B752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5319D169BE3916FADCC260062DE8FAA7 /* Pods-XMScanView_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XMScanView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XMScanView_Tests/Pods-XMScanView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_XMScanView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04C8696BE786720C84EA0983AC4B8285 /* Build configuration list for PBXNativeTarget "Pods-XMScanView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2C458FD39AF146668C109A6594B752 /* Debug */,
+				EB54EB752190C99CA27ABED2A21F41E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10B7097710F4591E1645F5C6A6D10F47 /* Debug */,
+				44F938B5562DC2342BAE510F7C411B9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		677E0BF596234A8C2D18FD125F663F76 /* Build configuration list for PBXNativeTarget "XMScanView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D2D6B9D215B0997E4D33F9EB23FEA86 /* Debug */,
+				3BA8E52D4826AA1FE99C933D01CADF95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6914D655014178EEBCE9ADA5CFF5B24 /* Build configuration list for PBXNativeTarget "Pods-XMScanView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98B87485DE0C32DC2A9058CB8A0776E1 /* Debug */,
+				276484A03FB98A820E9EA145455BB5D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

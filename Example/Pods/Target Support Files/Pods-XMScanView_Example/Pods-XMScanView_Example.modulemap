@@ -1,0 +1,6 @@
+framework module Pods_XMScanView_Example {
+  umbrella header "Pods-XMScanView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

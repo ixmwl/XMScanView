@@ -1,0 +1,16 @@
+PODS:
+  - XMScanView (0.1.0)
+
+DEPENDENCIES:
+  - XMScanView (from `../`)
+
+EXTERNAL SOURCES:
+  XMScanView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  XMScanView: e3a1169afda5099d9cb3cc3af30c9c39b44c1ae9
+
+PODFILE CHECKSUM: 51da60afa3d96ae4a6ebefa43fb16ca7d228136d
+
+COCOAPODS: 1.4.0

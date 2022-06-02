@@ -1,0 +1,22 @@
+{
+  "name": "XMScanView",
+  "version": "0.1.0",
+  "summary": "A short description of XMScanView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ixmwl510@163.com/XMScanView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ixmwl510@163.com": "xxx@epoint.com.cn"
+  },
+  "source": {
+    "git": "https://github.com/ixmwl510@163.com/XMScanView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "XMScanView/Classes/**/*"
+}
